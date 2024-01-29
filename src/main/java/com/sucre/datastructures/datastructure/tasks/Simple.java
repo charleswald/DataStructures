@@ -298,6 +298,7 @@ public class Simple {
             char c=sc.charAt(i);
             if(c==' '){
 
+                //include the test
                 rs=rs + sc.substring(i,prev_point)+" ";
                 prev_point=i;
 
